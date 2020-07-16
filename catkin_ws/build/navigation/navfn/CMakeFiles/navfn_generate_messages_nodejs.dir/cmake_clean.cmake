@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_nodejs"
-  "/home/workspace/catkin_ws/devel/share/gennodejs/ros/navfn/srv/MakeNavPlan.js"
-  "/home/workspace/catkin_ws/devel/share/gennodejs/ros/navfn/srv/SetCostmap.js"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/gennodejs/ros/navfn/srv/MakeNavPlan.js"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/gennodejs/ros/navfn/srv/SetCostmap.js"
 )
 
 # Per-language clean rules from dependency scanning.

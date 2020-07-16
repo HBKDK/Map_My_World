@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/libmove_slow_and_clear.pdb"
-  "/home/workspace/catkin_ws/devel/lib/libmove_slow_and_clear.so"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/libmove_slow_and_clear.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/libmove_slow_and_clear.so"
 )
 
 # Per-language clean rules from dependency scanning.

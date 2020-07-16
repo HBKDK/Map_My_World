@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/static_tests.dir/test/static_tests.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/costmap_2d/static_tests.pdb"
-  "/home/workspace/catkin_ws/devel/lib/costmap_2d/static_tests"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/costmap_2d/static_tests.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/costmap_2d/static_tests"
 )
 
 # Per-language clean rules from dependency scanning.

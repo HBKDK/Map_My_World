@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_pose_ekf_generate_messages_cpp"
-  "/home/workspace/catkin_ws/devel/include/robot_pose_ekf/GetStatus.h"
+  "/home/workspace/Map_My_World/catkin_ws/devel/include/robot_pose_ekf/GetStatus.h"
 )
 
 # Per-language clean rules from dependency scanning.

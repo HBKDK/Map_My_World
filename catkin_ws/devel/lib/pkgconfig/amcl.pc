@@ -1,8 +1,8 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/Map_My_World/catkin_ws/devel
 
 Name: amcl
 Description: Description of amcl
 Version: 1.12.16
-Cflags: -I/home/workspace/catkin_ws/devel/include -I/home/workspace/catkin_ws/src/navigation/amcl/include
+Cflags: -I/home/workspace/Map_My_World/catkin_ws/devel/include -I/home/workspace/Map_My_World/catkin_ws/src/navigation/amcl/include
 Libs: -L${prefix}/lib -lamcl_sensors -lamcl_map -lamcl_pf
 Requires: rosbag roscpp dynamic_reconfigure tf nav_msgs std_srvs

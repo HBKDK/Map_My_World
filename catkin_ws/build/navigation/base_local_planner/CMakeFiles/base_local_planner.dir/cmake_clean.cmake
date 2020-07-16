@@ -17,8 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o"
   "CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o"
   "CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/libbase_local_planner.pdb"
-  "/home/workspace/catkin_ws/devel/lib/libbase_local_planner.so"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/libbase_local_planner.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/libbase_local_planner.so"
 )
 
 # Per-language clean rules from dependency scanning.

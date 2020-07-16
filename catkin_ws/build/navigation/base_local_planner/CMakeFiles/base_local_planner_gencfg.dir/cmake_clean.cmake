@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/base_local_planner_gencfg"
-  "/home/workspace/catkin_ws/devel/include/base_local_planner/BaseLocalPlannerConfig.h"
-  "/home/workspace/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.dox"
-  "/home/workspace/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox"
-  "/home/workspace/catkin_ws/devel/lib/python2.7/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py"
-  "/home/workspace/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc"
+  "/home/workspace/Map_My_World/catkin_ws/devel/include/base_local_planner/BaseLocalPlannerConfig.h"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.dox"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig-usage.dox"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/python2.7/dist-packages/base_local_planner/cfg/BaseLocalPlannerConfig.py"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/base_local_planner/docs/BaseLocalPlannerConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

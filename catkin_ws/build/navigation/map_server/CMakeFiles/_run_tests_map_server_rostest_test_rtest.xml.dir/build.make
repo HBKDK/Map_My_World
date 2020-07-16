@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/Map_My_World/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/Map_My_World/catkin_ws/build
 
 # Utility rule file for _run_tests_map_server_rostest_test_rtest.xml.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 include navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/progress.make
 
 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml:
-	cd /home/workspace/catkin_ws/build/navigation/map_server && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/workspace/catkin_ws/build/test_results/map_server/rostest-test_rtest.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/workspace/catkin_ws/src/navigation/map_server --package=map_server --results-filename test_rtest.xml --results-base-dir \"/home/workspace/catkin_ws/build/test_results\" /home/workspace/catkin_ws/src/navigation/map_server/test/rtest.xml "
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/workspace/Map_My_World/catkin_ws/build/test_results/map_server/rostest-test_rtest.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/workspace/Map_My_World/catkin_ws/src/navigation/map_server --package=map_server --results-filename test_rtest.xml --results-base-dir \"/home/workspace/Map_My_World/catkin_ws/build/test_results\" /home/workspace/Map_My_World/catkin_ws/src/navigation/map_server/test/rtest.xml "
 
 _run_tests_map_server_rostest_test_rtest.xml: navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml
 _run_tests_map_server_rostest_test_rtest.xml: navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/build.make
@@ -67,10 +67,10 @@ navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.di
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/build
 
 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/clean:
-	cd /home/workspace/catkin_ws/build/navigation/map_server && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/cmake_clean.cmake
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/cmake_clean.cmake
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/clean
 
 navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/navigation/map_server /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/navigation/map_server /home/workspace/catkin_ws/build/navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/Map_My_World/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/Map_My_World/catkin_ws/src /home/workspace/Map_My_World/catkin_ws/src/navigation/map_server /home/workspace/Map_My_World/catkin_ws/build /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/map_server/CMakeFiles/_run_tests_map_server_rostest_test_rtest.xml.dir/depend
 

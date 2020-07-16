@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/fake_localization.dir/fake_localization.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/fake_localization/fake_localization.pdb"
-  "/home/workspace/catkin_ws/devel/lib/fake_localization/fake_localization"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/fake_localization/fake_localization.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/fake_localization/fake_localization"
 )
 
 # Per-language clean rules from dependency scanning.

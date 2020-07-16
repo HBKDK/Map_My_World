@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/base_local_planner_generate_messages_cpp"
-  "/home/workspace/catkin_ws/devel/include/base_local_planner/Position2DInt.h"
+  "/home/workspace/Map_My_World/catkin_ws/devel/include/base_local_planner/Position2DInt.h"
 )
 
 # Per-language clean rules from dependency scanning.

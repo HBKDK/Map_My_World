@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_pose_ekf_generate_messages_py"
-  "/home/workspace/catkin_ws/devel/lib/python2.7/dist-packages/robot_pose_ekf/srv/_GetStatus.py"
-  "/home/workspace/catkin_ws/devel/lib/python2.7/dist-packages/robot_pose_ekf/srv/__init__.py"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/python2.7/dist-packages/robot_pose_ekf/srv/_GetStatus.py"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/python2.7/dist-packages/robot_pose_ekf/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

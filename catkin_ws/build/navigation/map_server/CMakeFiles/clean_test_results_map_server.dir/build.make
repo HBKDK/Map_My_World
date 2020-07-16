@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/Map_My_World/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/Map_My_World/catkin_ws/build
 
 # Utility rule file for clean_test_results_map_server.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 include navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/progress.make
 
 navigation/map_server/CMakeFiles/clean_test_results_map_server:
-	cd /home/workspace/catkin_ws/build/navigation/map_server && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/workspace/catkin_ws/build/test_results/map_server
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/workspace/Map_My_World/catkin_ws/build/test_results/map_server
 
 clean_test_results_map_server: navigation/map_server/CMakeFiles/clean_test_results_map_server
 clean_test_results_map_server: navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build.make
@@ -67,10 +67,10 @@ navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build: clean_
 .PHONY : navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/build
 
 navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/clean:
-	cd /home/workspace/catkin_ws/build/navigation/map_server && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_map_server.dir/cmake_clean.cmake
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_map_server.dir/cmake_clean.cmake
 .PHONY : navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/clean
 
 navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/navigation/map_server /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/navigation/map_server /home/workspace/catkin_ws/build/navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/Map_My_World/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/Map_My_World/catkin_ws/src /home/workspace/Map_My_World/catkin_ws/src/navigation/map_server /home/workspace/Map_My_World/catkin_ws/build /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server /home/workspace/Map_My_World/catkin_ws/build/navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/map_server/CMakeFiles/clean_test_results_map_server.dir/depend
 

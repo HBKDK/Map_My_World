@@ -1,8 +1,8 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/Map_My_World/catkin_ws/devel
 
 Name: move_slow_and_clear
 Description: Description of move_slow_and_clear
 Version: 1.12.16
-Cflags: -I/home/workspace/catkin_ws/src/navigation/move_slow_and_clear/include
+Cflags: -I/home/workspace/Map_My_World/catkin_ws/src/navigation/move_slow_and_clear/include
 Libs: -L${prefix}/lib -lmove_slow_and_clear
 Requires: geometry_msgs nav_core pluginlib roscpp

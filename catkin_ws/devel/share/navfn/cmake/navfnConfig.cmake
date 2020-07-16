@@ -67,14 +67,14 @@ set(navfn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(navfn_SOURCE_PREFIX /home/workspace/catkin_ws/src/navigation/navfn)
-  set(navfn_DEVEL_PREFIX /home/workspace/catkin_ws/devel)
+  set(navfn_SOURCE_PREFIX /home/workspace/Map_My_World/catkin_ws/src/navigation/navfn)
+  set(navfn_DEVEL_PREFIX /home/workspace/Map_My_World/catkin_ws/devel)
   set(navfn_INSTALL_PREFIX "")
   set(navfn_PREFIX ${navfn_DEVEL_PREFIX})
 else()
   set(navfn_SOURCE_PREFIX "")
   set(navfn_DEVEL_PREFIX "")
-  set(navfn_INSTALL_PREFIX /home/workspace/catkin_ws/install)
+  set(navfn_INSTALL_PREFIX /home/workspace/Map_My_World/catkin_ws/install)
   set(navfn_PREFIX ${navfn_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(navfn_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/navigation/navfn/include " STREQUAL " ")
+if(NOT "/home/workspace/Map_My_World/catkin_ws/devel/include;/home/workspace/Map_My_World/catkin_ws/src/navigation/navfn/include " STREQUAL " ")
   set(navfn_INCLUDE_DIRS "")
-  set(_include_dirs "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/navigation/navfn/include")
+  set(_include_dirs "/home/workspace/Map_My_World/catkin_ws/devel/include;/home/workspace/Map_My_World/catkin_ws/src/navigation/navfn/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/navfn " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/na
         message(FATAL_ERROR "Project 'navfn' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'navfn' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/workspace/catkin_ws/src/navigation/navfn/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'navfn' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/workspace/Map_My_World/catkin_ws/src/navigation/navfn/${idir}'.  ${_report}")
     endif()
     _list_append_unique(navfn_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/catkin_ws/devel/lib;/home/workspace/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/Map_My_World/catkin_ws/devel/lib;/home/workspace/Map_My_World/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

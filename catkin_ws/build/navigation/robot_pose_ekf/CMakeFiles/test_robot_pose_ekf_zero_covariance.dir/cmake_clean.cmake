@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_robot_pose_ekf_zero_covariance.dir/test/test_robot_pose_ekf_zero_covariance.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf_zero_covariance.pdb"
-  "/home/workspace/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf_zero_covariance"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf_zero_covariance.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/robot_pose_ekf/test_robot_pose_ekf_zero_covariance"
 )
 
 # Per-language clean rules from dependency scanning.

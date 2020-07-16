@@ -1,8 +1,8 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/Map_My_World/catkin_ws/devel
 
 Name: dwa_local_planner
 Description: Description of dwa_local_planner
 Version: 1.12.16
-Cflags: -I/home/workspace/catkin_ws/devel/include -I/home/workspace/catkin_ws/src/navigation/dwa_local_planner/include
+Cflags: -I/home/workspace/Map_My_World/catkin_ws/devel/include -I/home/workspace/Map_My_World/catkin_ws/src/navigation/dwa_local_planner/include
 Libs: -L${prefix}/lib -ldwa_local_planner
 Requires: dynamic_reconfigure nav_msgs pluginlib roscpp

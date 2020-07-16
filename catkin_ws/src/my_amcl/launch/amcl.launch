@@ -41,5 +41,5 @@
     <rosparam file="$(find my_amcl)/config/base_local_planner_params.yaml" command="load" />
   </node>
   <!--RVIZ-->
-    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/workspace/catkin_ws/src/my_amcl.rviz"/>
+    <node pkg="rviz" type="rviz" name="rviz" args="-d /home/workspace/Map_My_World/catkin_ws/src/my_amcl.rviz"/>
 </launch>

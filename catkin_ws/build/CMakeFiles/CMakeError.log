@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4af2a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4af2a.dir/build.make CMakeFiles/cmTC_4af2a.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4af2a.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4af2a.dir/CheckSymbolExists.c.o   -c /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4af2a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4af2a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4af2a.dir/CheckSymbolExists.c.o  -o cmTC_4af2a -rdynamic 
-CMakeFiles/cmTC_4af2a.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_11b39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11b39.dir/build.make CMakeFiles/cmTC_11b39.dir/build
+make[1]: Entering directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11b39.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_11b39.dir/CheckSymbolExists.c.o   -c /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_11b39
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11b39.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_11b39.dir/CheckSymbolExists.c.o  -o cmTC_11b39 -rdynamic 
+CMakeFiles/cmTC_11b39.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4af2a.dir/build.make:97: recipe for target 'cmTC_4af2a' failed
-make[1]: *** [cmTC_4af2a] Error 1
-make[1]: Leaving directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4af2a/fast' failed
-make: *** [cmTC_4af2a/fast] Error 2
+CMakeFiles/cmTC_11b39.dir/build.make:97: recipe for target 'cmTC_11b39' failed
+make[1]: *** [cmTC_11b39] Error 1
+make[1]: Leaving directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_11b39/fast' failed
+make: *** [cmTC_11b39/fast] Error 2
 
-File /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,39 +34,39 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_427e9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_427e9.dir/build.make CMakeFiles/cmTC_427e9.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_427e9.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_427e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_427e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_427e9.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_427e9.dir/CheckFunctionExists.c.o  -o cmTC_427e9 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_777ed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_777ed.dir/build.make CMakeFiles/cmTC_777ed.dir/build
+make[1]: Entering directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_777ed.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_777ed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_777ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_777ed.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_777ed.dir/CheckFunctionExists.c.o  -o cmTC_777ed -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_427e9.dir/build.make:97: recipe for target 'cmTC_427e9' failed
-make[1]: *** [cmTC_427e9] Error 1
-make[1]: Leaving directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_427e9/fast' failed
-make: *** [cmTC_427e9/fast] Error 2
+CMakeFiles/cmTC_777ed.dir/build.make:97: recipe for target 'cmTC_777ed' failed
+make[1]: *** [cmTC_777ed] Error 1
+make[1]: Leaving directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_777ed/fast' failed
+make: *** [cmTC_777ed/fast] Error 2
 
 
 Determining if the include file pgm.h exists failed with the following output:
-Change Dir: /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3632a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3632a.dir/build.make CMakeFiles/cmTC_3632a.dir/build
-make[1]: Entering directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3632a.dir/CheckIncludeFile.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_3632a.dir/CheckIncludeFile.cxx.o -c /home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:17: fatal error: pgm.h: No such file or directory
+Run Build Command:"/usr/bin/make" "cmTC_aec2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aec2a.dir/build.make CMakeFiles/cmTC_aec2a.dir/build
+make[1]: Entering directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aec2a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_aec2a.dir/CheckIncludeFile.cxx.o -c /home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:17: fatal error: pgm.h: No such file or directory
 compilation terminated.
-CMakeFiles/cmTC_3632a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3632a.dir/CheckIncludeFile.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_3632a.dir/CheckIncludeFile.cxx.o] Error 1
-make[1]: Leaving directory '/home/workspace/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3632a/fast' failed
-make: *** [cmTC_3632a/fast] Error 2
+CMakeFiles/cmTC_aec2a.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_aec2a.dir/CheckIncludeFile.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_aec2a.dir/CheckIncludeFile.cxx.o] Error 1
+make[1]: Leaving directory '/home/workspace/Map_My_World/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aec2a/fast' failed
+make: *** [cmTC_aec2a/fast] Error 2
 
 

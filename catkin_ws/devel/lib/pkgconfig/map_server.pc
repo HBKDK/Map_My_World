@@ -1,8 +1,8 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/Map_My_World/catkin_ws/devel
 
 Name: map_server
 Description: Description of map_server
 Version: 1.12.16
-Cflags: -I/home/workspace/catkin_ws/src/navigation/map_server/include
+Cflags: -I/home/workspace/Map_My_World/catkin_ws/src/navigation/map_server/include
 Libs: -L${prefix}/lib -limage_loader
 Requires: roscpp tf nav_msgs

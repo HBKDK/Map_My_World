@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"amcl\"
 
-CXX_INCLUDES = -I/home/workspace/catkin_ws/devel/include -I/home/workspace/catkin_ws/src/navigation/amcl/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/workspace/Map_My_World/catkin_ws/devel/include -I/home/workspace/Map_My_World/catkin_ws/src/navigation/amcl/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

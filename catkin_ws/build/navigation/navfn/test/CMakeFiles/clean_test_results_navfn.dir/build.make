@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/Map_My_World/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/Map_My_World/catkin_ws/build
 
 # Utility rule file for clean_test_results_navfn.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
 include navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/progress.make
 
 navigation/navfn/test/CMakeFiles/clean_test_results_navfn:
-	cd /home/workspace/catkin_ws/build/navigation/navfn/test && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/workspace/catkin_ws/build/test_results/navfn
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test && /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/workspace/Map_My_World/catkin_ws/build/test_results/navfn
 
 clean_test_results_navfn: navigation/navfn/test/CMakeFiles/clean_test_results_navfn
 clean_test_results_navfn: navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build.make
@@ -67,10 +67,10 @@ navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build: clean_test_
 .PHONY : navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build
 
 navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/clean:
-	cd /home/workspace/catkin_ws/build/navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_navfn.dir/cmake_clean.cmake
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_navfn.dir/cmake_clean.cmake
 .PHONY : navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/clean
 
 navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/navigation/navfn/test /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/navigation/navfn/test /home/workspace/catkin_ws/build/navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/Map_My_World/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/Map_My_World/catkin_ws/src /home/workspace/Map_My_World/catkin_ws/src/navigation/navfn/test /home/workspace/Map_My_World/catkin_ws/build /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/depend
 

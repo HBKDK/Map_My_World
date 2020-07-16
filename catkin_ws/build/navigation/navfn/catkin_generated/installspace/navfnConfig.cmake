@@ -67,14 +67,14 @@ set(navfn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(navfn_SOURCE_PREFIX /home/workspace/catkin_ws/src/navigation/navfn)
-  set(navfn_DEVEL_PREFIX /home/workspace/catkin_ws/devel)
+  set(navfn_SOURCE_PREFIX /home/workspace/Map_My_World/catkin_ws/src/navigation/navfn)
+  set(navfn_DEVEL_PREFIX /home/workspace/Map_My_World/catkin_ws/devel)
   set(navfn_INSTALL_PREFIX "")
   set(navfn_PREFIX ${navfn_DEVEL_PREFIX})
 else()
   set(navfn_SOURCE_PREFIX "")
   set(navfn_DEVEL_PREFIX "")
-  set(navfn_INSTALL_PREFIX /home/workspace/catkin_ws/install)
+  set(navfn_INSTALL_PREFIX /home/workspace/Map_My_World/catkin_ws/install)
   set(navfn_PREFIX ${navfn_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/catkin_ws/install/lib;/home/workspace/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/Map_My_World/catkin_ws/install/lib;/home/workspace/Map_My_World/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

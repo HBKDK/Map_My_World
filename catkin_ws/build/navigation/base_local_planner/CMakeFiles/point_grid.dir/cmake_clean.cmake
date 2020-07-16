@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/point_grid.dir/src/point_grid.cpp.o"
-  "/home/workspace/catkin_ws/devel/lib/base_local_planner/point_grid.pdb"
-  "/home/workspace/catkin_ws/devel/lib/base_local_planner/point_grid"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/base_local_planner/point_grid.pdb"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/base_local_planner/point_grid"
 )
 
 # Per-language clean rules from dependency scanning.

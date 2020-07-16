@@ -1,8 +1,8 @@
-prefix=/home/workspace/catkin_ws/devel
+prefix=/home/workspace/Map_My_World/catkin_ws/devel
 
 Name: voxel_grid
 Description: Description of voxel_grid
 Version: 1.12.16
-Cflags: -I/home/workspace/catkin_ws/src/navigation/voxel_grid/include
+Cflags: -I/home/workspace/Map_My_World/catkin_ws/src/navigation/voxel_grid/include
 Libs: -L${prefix}/lib -lvoxel_grid
 Requires: roscpp

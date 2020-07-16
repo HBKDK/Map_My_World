@@ -67,14 +67,14 @@ set(costmap_2d_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(costmap_2d_SOURCE_PREFIX /home/workspace/catkin_ws/src/navigation/costmap_2d)
-  set(costmap_2d_DEVEL_PREFIX /home/workspace/catkin_ws/devel)
+  set(costmap_2d_SOURCE_PREFIX /home/workspace/Map_My_World/catkin_ws/src/navigation/costmap_2d)
+  set(costmap_2d_DEVEL_PREFIX /home/workspace/Map_My_World/catkin_ws/devel)
   set(costmap_2d_INSTALL_PREFIX "")
   set(costmap_2d_PREFIX ${costmap_2d_DEVEL_PREFIX})
 else()
   set(costmap_2d_SOURCE_PREFIX "")
   set(costmap_2d_DEVEL_PREFIX "")
-  set(costmap_2d_INSTALL_PREFIX /home/workspace/catkin_ws/install)
+  set(costmap_2d_INSTALL_PREFIX /home/workspace/Map_My_World/catkin_ws/install)
   set(costmap_2d_PREFIX ${costmap_2d_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(costmap_2d_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/navigation/costmap_2d/include;/usr/include/pcl-1.7;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-6.2;/usr/include/jsoncpp;/usr/include/x86_64-linux-gnu;/usr/include/freetype2;/usr/include/x86_64-linux-gnu/freetype2;/usr/include/hdf5/openmpi;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include;/usr/lib/openmpi/include;/usr/lib/openmpi/include/openmpi;/usr/include/python2.7;/usr/include/libxml2;/usr/include/tcl " STREQUAL " ")
+if(NOT "/home/workspace/Map_My_World/catkin_ws/devel/include;/home/workspace/Map_My_World/catkin_ws/src/navigation/costmap_2d/include;/usr/include/pcl-1.7;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-6.2;/usr/include/jsoncpp;/usr/include/x86_64-linux-gnu;/usr/include/freetype2;/usr/include/x86_64-linux-gnu/freetype2;/usr/include/hdf5/openmpi;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include;/usr/lib/openmpi/include;/usr/lib/openmpi/include/openmpi;/usr/include/python2.7;/usr/include/libxml2;/usr/include/tcl " STREQUAL " ")
   set(costmap_2d_INCLUDE_DIRS "")
-  set(_include_dirs "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/navigation/costmap_2d/include;/usr/include/pcl-1.7;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-6.2;/usr/include/jsoncpp;/usr/include/x86_64-linux-gnu;/usr/include/freetype2;/usr/include/x86_64-linux-gnu/freetype2;/usr/include/hdf5/openmpi;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include;/usr/lib/openmpi/include;/usr/lib/openmpi/include/openmpi;/usr/include/python2.7;/usr/include/libxml2;/usr/include/tcl")
+  set(_include_dirs "/home/workspace/Map_My_World/catkin_ws/devel/include;/home/workspace/Map_My_World/catkin_ws/src/navigation/costmap_2d/include;/usr/include/pcl-1.7;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2;/usr/include/vtk-6.2;/usr/include/jsoncpp;/usr/include/x86_64-linux-gnu;/usr/include/freetype2;/usr/include/x86_64-linux-gnu/freetype2;/usr/include/hdf5/openmpi;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent;/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include;/usr/lib/openmpi/include;/usr/lib/openmpi/include/openmpi;/usr/include/python2.7;/usr/include/libxml2;/usr/include/tcl")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/costmap_2d " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/workspace/catkin_ws/devel/include;/home/workspace/catkin_ws/src/na
         message(FATAL_ERROR "Project 'costmap_2d' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'costmap_2d' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/workspace/catkin_ws/src/navigation/costmap_2d/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'costmap_2d' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/workspace/Map_My_World/catkin_ws/src/navigation/costmap_2d/${idir}'.  ${_report}")
     endif()
     _list_append_unique(costmap_2d_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/workspace/catkin_ws/devel/lib;/home/workspace/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/workspace/Map_My_World/catkin_ws/devel/lib;/home/workspace/Map_My_World/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

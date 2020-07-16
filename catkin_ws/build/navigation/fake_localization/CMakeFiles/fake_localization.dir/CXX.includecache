@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/workspace/catkin_ws/src/navigation/fake_localization/fake_localization.cpp
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/fake_localization.cpp
 ros/ros.h
 -
 ros/time.h
@@ -20,15 +20,15 @@ geometry_msgs/PoseWithCovarianceStamped.h
 angles/angles.h
 -
 ros/console.h
-/home/workspace/catkin_ws/src/navigation/fake_localization/ros/console.h
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/ros/console.h
 tf/transform_broadcaster.h
-/home/workspace/catkin_ws/src/navigation/fake_localization/tf/transform_broadcaster.h
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/tf/transform_broadcaster.h
 tf/transform_listener.h
-/home/workspace/catkin_ws/src/navigation/fake_localization/tf/transform_listener.h
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/tf/transform_listener.h
 tf/message_filter.h
-/home/workspace/catkin_ws/src/navigation/fake_localization/tf/message_filter.h
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/tf/message_filter.h
 message_filters/subscriber.h
-/home/workspace/catkin_ws/src/navigation/fake_localization/message_filters/subscriber.h
+/home/workspace/Map_My_World/catkin_ws/src/navigation/fake_localization/message_filters/subscriber.h
 
 /opt/ros/kinetic/include/angles/angles.h
 algorithm

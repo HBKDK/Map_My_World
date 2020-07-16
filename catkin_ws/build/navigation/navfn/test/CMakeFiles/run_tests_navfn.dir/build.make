@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/workspace/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/workspace/Map_My_World/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/workspace/catkin_ws/build
+CMAKE_BINARY_DIR = /home/workspace/Map_My_World/catkin_ws/build
 
 # Utility rule file for run_tests_navfn.
 
@@ -63,10 +63,10 @@ navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/build: run_tests_navfn
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/build
 
 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/clean:
-	cd /home/workspace/catkin_ws/build/navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn.dir/cmake_clean.cmake
+	cd /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_navfn.dir/cmake_clean.cmake
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/clean
 
 navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/depend:
-	cd /home/workspace/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/catkin_ws/src /home/workspace/catkin_ws/src/navigation/navfn/test /home/workspace/catkin_ws/build /home/workspace/catkin_ws/build/navigation/navfn/test /home/workspace/catkin_ws/build/navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/workspace/Map_My_World/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/workspace/Map_My_World/catkin_ws/src /home/workspace/Map_My_World/catkin_ws/src/navigation/navfn/test /home/workspace/Map_My_World/catkin_ws/build /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test /home/workspace/Map_My_World/catkin_ws/build/navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation/navfn/test/CMakeFiles/run_tests_navfn.dir/depend
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/global_planner_gencfg"
-  "/home/workspace/catkin_ws/devel/include/global_planner/GlobalPlannerConfig.h"
-  "/home/workspace/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.dox"
-  "/home/workspace/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox"
-  "/home/workspace/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/GlobalPlannerConfig.py"
-  "/home/workspace/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc"
+  "/home/workspace/Map_My_World/catkin_ws/devel/include/global_planner/GlobalPlannerConfig.h"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.dox"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox"
+  "/home/workspace/Map_My_World/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/GlobalPlannerConfig.py"
+  "/home/workspace/Map_My_World/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

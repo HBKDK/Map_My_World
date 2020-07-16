@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/workspace/catkin_ws/src/navigation/base_local_planner"
+echo_and_run cd "/home/workspace/Map_My_World/catkin_ws/src/navigation/base_local_planner"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/workspace/catkin_ws/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/workspace/Map_My_World/catkin_ws/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/workspace/catkin_ws/install/lib/python2.7/dist-packages:/home/workspace/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/workspace/catkin_ws/build" \
+    PYTHONPATH="/home/workspace/Map_My_World/catkin_ws/install/lib/python2.7/dist-packages:/home/workspace/Map_My_World/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/workspace/Map_My_World/catkin_ws/build" \
     "/usr/bin/python2" \
-    "/home/workspace/catkin_ws/src/navigation/base_local_planner/setup.py" \
-    build --build-base "/home/workspace/catkin_ws/build/navigation/base_local_planner" \
+    "/home/workspace/Map_My_World/catkin_ws/src/navigation/base_local_planner/setup.py" \
+    build --build-base "/home/workspace/Map_My_World/catkin_ws/build/navigation/base_local_planner" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/workspace/catkin_ws/install" --install-scripts="/home/workspace/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/workspace/Map_My_World/catkin_ws/install" --install-scripts="/home/workspace/Map_My_World/catkin_ws/install/bin"
