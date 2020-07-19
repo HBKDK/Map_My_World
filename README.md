@@ -15,10 +15,8 @@ You can move the mobile robot using Tele-Operation.
 1. github clone
 <pre><code>git clone https://github.com/HBKDK/Map_My_World
 </code></pre>
-3. Build the package and source the setup script
-<pre><code>cd ..
-$ catkin_make
-$ source devel/setup.bash
+2. run
+<pre><code>$ cd Map_My_World/catkin_ws  
 $ roslaunch my_rtabmap mapping.launch</pre></code>
 4. open other terminal
 <pre><code>rosrun teleop_twist_keyboard teleop_twist_keyboard.py</pre></code>
