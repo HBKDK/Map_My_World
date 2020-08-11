@@ -4,6 +4,7 @@ Udacity Robotics Software Engineer Course
 ## Program Overview
 In this program, a mobile robot inside a map in Gazebo created map with ROS rtabmap package.
 You can move the mobile robot using Tele-Operation.
+![screen shot](https://github.com/HBKDK/Map_My_World/blob/master/map_my_world.jpg)
 
 ## Requirements
 * Gazebo any version later than v7.0.0
