@@ -13,9 +13,22 @@ You can move the mobile robot using Tele-Operation.
 
 ## Setup and Running
 1. github clone
-<pre><code>git clone https://github.com/HBKDK/Map_My_World
+<pre><code>$ git clone https://github.com/HBKDK/Map_My_World
 </code></pre>
-2. run
+
+2. clone nodes
+<pre><code>$ cd ~/Map_My_World/catkin_ws/src
+$ git clone https://github.com/introlab/rtabmap_ros.git
+$ git clone https://github.com/ros-teleop/teleop_twist_keyboard
+$ git clone -b indigo-devel --single -branch https://github.com/ros-planning/navigation
+</code></pre>
+
+3. build
+<pre><code>$ cd ~/home_service_robot/catkin_ws
+$ catkin_make
+</code></pre>
+
+4. run
 <pre><code>$ cd Map_My_World/catkin_ws  
 $ source devel devel/setup.bash
 $ roslaunch my_rtabmap mapping.launch</pre></code>
